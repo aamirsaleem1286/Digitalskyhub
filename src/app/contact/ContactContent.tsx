@@ -229,9 +229,9 @@ export function ContactContent() {
         <div className="container-custom mx-auto px-4 md:px-6">
           <div className="grid sm:grid-cols-3 gap-4 max-w-4xl mx-auto mb-12">
             {[
-              { icon: Mail, label: "Email", value: "info@digitalskyhub.com", href: "mailto:info@digitalskyhub.com" },
-              { icon: Phone, label: "Phone", value: "+923312001008", href: "+923312001008" },
-              { icon: MapPin, label: "Office", value: "Bukhari Commercial phase 6 lane 2, shop # 2 DHA karachi, Pakistan", href: "#" },
+              { icon: Mail, label: "Email", value: "aisolutionit26@gmail.com", href: "mailto:aisolutionit26@gmail.com" },
+              { icon: Phone, label: "Phone", value: "+447418354297", href: "tel:+447418354297" },
+              { icon: MapPin, label: "Office", value: "Mart Lot 5796-B ,Jalan imam haji omar kampung sungai pinang ,4920 pulau indah,Selangor", href: "#" },
             ].map((item) => (
               <GlassCard key={item.label} glow="blue" className="p-5 text-center">
                 <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-3">
@@ -319,7 +319,7 @@ export function ContactContent() {
                         id="phone"
                         name="phone"
                         type="tel"
-                        placeholder="+923312001008"
+                        placeholder="+447418354297"
                         value={formData.phone}
                         onChange={handleChange}
                         onBlur={handleBlur}
@@ -486,7 +486,7 @@ export function ContactContent() {
 
               {/* WhatsApp */}
               <a
-                href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "601119903482"}?text=Hi%20Digital%20Sky%20Hub!%20I%20have%20a%20question.`}
+                href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "447418354297"}?text=Hi%20AI%20Solution%20IT!%20I%20have%20a%20question.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -508,7 +508,7 @@ export function ContactContent() {
                 <div className="w-full h-full bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 flex items-center justify-center">
                   <div className="text-center">
                     <MapPin className="w-8 h-8 text-primary/50 mx-auto mb-2" />
-                    <p className="text-sm text-muted-foreground">Bukhari Commercial phase 6 lane 2, shop # 2 DHA karachi, Pakistan</p>
+                    <p className="text-sm text-muted-foreground">Mart Lot 5796-B ,Jalan imam haji omar kampung sungai pinang ,4920 pulau indah,Selangor</p>
                     {/* <p className="text-xs text-muted-foreground">London, UK</p> */}
                   </div>
                 </div>

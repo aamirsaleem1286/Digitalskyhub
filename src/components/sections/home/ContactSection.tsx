@@ -83,8 +83,8 @@ export function ContactSection() {
                   </div>
                   <div>
                     <div className="text-sm font-medium">Email</div>
-                    <a href="mailto:info@digitalskyhub.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                      info@digitalskyhub.com
+                    <a href="mailto:aisolutionit26@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                      aisolutionit26@gmail.com
                     </a>
                   </div>
                 </div>
@@ -94,8 +94,8 @@ export function ContactSection() {
                   </div>
                   <div>
                     <div className="text-sm font-medium">Phone</div>
-                    <a href="tel:+601119903482" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                      +923312001008
+                    <a href="tel:+447418354297" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                      +447418354297
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export function ContactSection() {
                   <div>
                     <div className="text-sm font-medium">Office</div>
                     <div className="text-sm text-muted-foreground">
-                      Bukhari Commercial phase 6 lane 2, shop # 2 DHA karachi, Pakistan<br />
+                      Mart Lot 5796-B ,Jalan imam haji omar kampung sungai pinang ,4920 pulau indah,Selangor<br />
                       {/* London, United Kingdom */}
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export function ContactSection() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/601119903482"
+              href="https://wa.me/447418354297"
               target="_blank"
               rel="noopener noreferrer"
               className="block"

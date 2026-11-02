@@ -28,7 +28,7 @@ export function AboutContent() {
               About Us
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
-              We Are <span className="gradient-text">Digital Sky Hub</span>
+              We Are <span className="gradient-text">AI Solution IT</span>
             </h1>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               A team of innovators, engineers, and designers passionate about
@@ -64,7 +64,7 @@ export function AboutContent() {
             <h3 className="text-2xl md:text-3xl font-bold mb-6 gradient-text">Our Story</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Digital Sky Hub was founded with a simple yet ambitious vision: to make
+                AI Solution IT was founded with a simple yet ambitious vision: to make
                 enterprise-grade AI and digital technology accessible to every business.
                 We recognized that while large corporations had the resources to leverage
                 cutting-edge technology, small and medium businesses were often left behind.
@@ -76,7 +76,7 @@ export function AboutContent() {
                 technical expertise with a relentless focus on delivering measurable business value.
               </p>
               <p>
-                Today, Digital Sky Hub is home to 50+ talented professionals across AI engineering,
+                Today, AI Solution IT is home to 50+ talented professionals across AI engineering,
                 software development, design, and digital marketing. We have delivered 100+ successful
                 projects and maintain a 98% client satisfaction rate — a testament to our commitment
                 to quality and partnership.

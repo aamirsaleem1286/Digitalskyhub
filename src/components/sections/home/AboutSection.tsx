@@ -29,7 +29,7 @@ export function AboutSection() {
       <div className="absolute inset-0 grid-bg opacity-50" />
       <div className="container-custom mx-auto relative z-10">
         <SectionHeading
-          title="About Digital Sky Hub"
+          title="About AI Solution IT"
           subtitle="Who We Are"
         />
 
@@ -78,7 +78,7 @@ export function AboutSection() {
 
         {/* Why Us */}
         <h3 className="text-2xl md:text-3xl font-bold text-center mt-4 mb-8">
-          <span className="gradient-text">Why Digital Sky Hub?</span>
+          <span className="gradient-text">Why AI Solution IT?</span>
         </h3>
         <div className="grid sm:grid-cols-2 gap-6">
           {whyUs.map((item, i) => (

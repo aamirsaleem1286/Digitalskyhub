@@ -79,7 +79,7 @@ export function LoadingScreen() {
               transition={{ delay: 0.3, duration: 0.5 }}
             >
               <h3 className="text-xl font-bold gradient-text">
-                Digital Sky Hub
+                AI Solution IT
               </h3>
               <p className="text-sm text-muted-foreground mt-1">
                 Loading experience...

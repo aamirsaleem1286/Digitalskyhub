@@ -23,11 +23,11 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Digital Sky Hub | AI, Automation & Digital Innovation",
-    template: "%s | Digital Sky Hub",
+    default: "AI Solution IT | AI, Automation & Digital Innovation",
+    template: "%s | AI Solution IT",
   },
   description:
-    "Digital Sky Hub transforms businesses with AI, automation, and custom software. We build enterprise-grade AI solutions, stunning digital experiences, and intelligent automation systems.",
+    "AI Solution IT transforms businesses with AI, automation, and custom software. We build enterprise-grade AI solutions, stunning digital experiences, and intelligent automation systems.",
   keywords: [
     "AI solutions",
     "business automation",
@@ -39,21 +39,21 @@ export const metadata: Metadata = {
     "digital marketing",
     "UI/UX design",
   ],
-  authors: [{ name: "Digital Sky Hub" }],
-  creator: "Digital Sky Hub",
-  publisher: "Digital Sky Hub",
+  authors: [{ name: "AI Solution IT" }],
+  creator: "AI Solution IT",
+  publisher: "AI Solution IT",
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Digital Sky Hub",
-    title: "Digital Sky Hub | AI, Automation & Digital Innovation",
+    siteName: "AI Solution IT",
+    title: "AI Solution IT | AI, Automation & Digital Innovation",
     description:
       "Transforming Businesses with AI, Automation & Digital Innovation. Build smarter businesses with cutting-edge technology.",
-    url: "https://digitalskyhub.com",
+    url: "https://aisolutionit.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Sky Hub | AI, Automation & Digital Innovation",
+    title: "AI Solution IT | AI, Automation & Digital Innovation",
     description:
       "Transforming Businesses with AI, Automation & Digital Innovation.",
   },
@@ -105,9 +105,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Digital Sky Hub",
-              url: "https://digitalskyhub.com",
-              logo: "https://digitalskyhub.com/logo.png",
+              name: "AI Solution IT",
+              url: "https://aisolutionit.com",
+              logo: "https://aisolutionit.com/logo.png",
               description:
                 "Transforming Businesses with AI, Automation & Digital Innovation.",
               foundingDate: "2024",
@@ -119,13 +119,13 @@ export default function RootLayout({
               },
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+923312001008",
+                telephone: "+447418354297",
                 contactType: "sales",
-                email: "info@digitalskyhub.com",
+                email: "aisolutionit26@gmail.com",
               },
               sameAs: [
-                "https://linkedin.com/company/digitalskyhub",
-                "https://twitter.com/digitalskyhub",
+                "https://linkedin.com/company/aisolutionit",
+                "https://twitter.com/aisolutionit",
               ],
             }),
           }}

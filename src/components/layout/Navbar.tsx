@@ -55,10 +55,10 @@ export function Navbar() {
             {/* Logo */}
             <Link href="/" className="relative z-10 flex items-center gap-2.5 group">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-shadow">
-                DSH
+                ASIT
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold leading-tight gradient-text">Digital Sky Hub</span>
+                <span className="text-lg font-bold leading-tight gradient-text">AI Solution IT</span>
                 <span className="text-[10px] text-muted-foreground leading-tight -mt-0.5">Innovate · Automate · Scale</span>
               </div>
             </Link>

@@ -4,9 +4,9 @@ import { PortfolioContent } from "./PortfolioContent";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Explore Digital Sky Hub's portfolio of AI, web, mobile, automation, marketing, and branding projects.",
+    "Explore AI Solution IT's portfolio of AI, web, mobile, automation, marketing, and branding projects.",
   openGraph: {
-    title: "Portfolio | Digital Sky Hub",
+    title: "Portfolio | AI Solution IT",
     description: "See our latest work in AI, software development, design, and digital marketing.",
   },
 };

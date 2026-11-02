@@ -34,10 +34,10 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-2.5 group mb-5">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-primary/25">
-                DSH
+                ASIT
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold leading-tight gradient-text">Digital Sky Hub</span>
+                <span className="text-lg font-bold leading-tight gradient-text">AI Solution IT</span>
                 <span className="text-[10px] text-muted-foreground leading-tight -mt-0.5">Innovate · Automate · Scale</span>
               </div>
             </Link>
@@ -100,21 +100,21 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-3">
               <li>
-                <a href="mailto:info@digitalskyhub.com" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
+                <a href="mailto:aisolutionit26@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-primary" />
-                  info@digitalskyhub.com
+                  aisolutionit26@gmail.com
                 </a>
               </li>
               <li>
                 <a href="tel:+601119903482" className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-primary" />
-                  +923312001008
+                  +447418354297
                 </a>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground flex items-start gap-2">
                   <MapPin className="w-3.5 h-3.5 text-primary mt-0.5 flex-shrink-0" />
-                  <span>Bukhari Commercial phase 6 lane 2, shop # 2 DHA karachi, Pakistan</span>
+                  <span>Mart Lot 5796-B ,Jalan imam haji omar kampung sungai pinang ,4920 pulau indah,Selangor</span>
                 </span>
               </li>
             </ul>
@@ -144,7 +144,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground text-center md:text-left">
-            &copy; {new Date().getFullYear()} Digital Sky Hub. All rights reserved. |
+            &copy; {new Date().getFullYear()} AI Solution IT. All rights reserved. |
             <Link href="#" className="hover:text-primary ml-1">Privacy Policy</Link> |
             <Link href="#" className="hover:text-primary ml-1">Terms of Service</Link>
           </p>

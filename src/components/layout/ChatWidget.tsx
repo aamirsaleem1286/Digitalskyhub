@@ -28,7 +28,7 @@ const botResponses: { keywords: string[]; response: string }[] = [
   {
     keywords: ["hi", "hello", "hey", "howdy", "good morning", "good evening", "good afternoon"],
     response:
-      "Hey there! 👋 Welcome to Digital Sky Hub. How can I help you today? You can ask me about our services, pricing, portfolio, or anything else!",
+      "Hey there! 👋 Welcome to AI Solution IT. How can I help you today? You can ask me about our services, pricing, portfolio, or anything else!",
   },
   {
     keywords: ["service", "what do you do", "offer", "capabilities", "solutions"],
@@ -43,7 +43,7 @@ const botResponses: { keywords: string[]; response: string }[] = [
   {
     keywords: ["contact", "phone", "email", "call", "reach", "get in touch"],
     response:
-      "You can reach us through:\n\n📧 **Email:** info@digitalskyhub.com\n📞 **Phone:** +923312001008\n💬 **WhatsApp:** Click the WhatsApp button below\n\nWe typically respond within 24 hours!",
+      "You can reach us through:\n\n📧 **Email:** aisolutionit26@gmail.com\n📞 **Phone:** +447418354297\n💬 **WhatsApp:** Click the WhatsApp button below\n\nWe typically respond within 24 hours!",
   },
   {
     keywords: ["location", "where", "office", "address", "located", "Pakistan", "Malaysia"],
@@ -98,7 +98,7 @@ function findBotResponse(input: string): string {
     "That's a great question! 🤔 I'm not entirely sure about that one. Let me connect you with our team who can help!\n\n" +
     "In the meantime, you can:\n" +
     "💬 **WhatsApp us** — Get an instant response\n" +
-    "📧 **Email us** at info@digitalskyhub.com\n" +
+    "📧 **Email us** at aisolutionit26@gmail.com\n" +
     "📝 **Fill out the contact form** for a detailed reply"
   );
 }
@@ -126,7 +126,7 @@ export function ChatWidget() {
     {
       id: "init",
       role: "bot",
-      text: "👋 Hi! I'm Sky, your Digital Sky Hub assistant. Ask me anything about our services, pricing, or portfolio!",
+      text: "👋 Hi! I'm ASIT, your AI Solution IT assistant. Ask me anything about our services, pricing, or portfolio!",
     },
   ]);
   const [inputValue, setInputValue] = useState("");
@@ -187,7 +187,7 @@ export function ChatWidget() {
       {
         id: "init",
         role: "bot",
-        text: "👋 Hi! I'm Sky, your Digital Sky Hub assistant. Ask me anything about our services, pricing, or portfolio!",
+        text: "👋 Hi! I'm ASIT, your AI Solution IT assistant. Ask me anything about our services, pricing, or portfolio!",
       },
     ]);
     setIsBotTyping(false);
@@ -221,8 +221,8 @@ export function ChatWidget() {
     []
   );
 
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "601128357365";
-  const waLink = `https://wa.me/${whatsappNumber}?text=Hi%20Digital%20Sky%20Hub!%20I%27d%20like%20to%20know%20more%20about%20your%20services.`;
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "447418354297";
+  const waLink = `https://wa.me/${whatsappNumber}?text=Hi%20AI%20Solution%20IT!%20I%27d%20like%20to%20know%20more%20about%20your%20services.`;
 
   return (
     <>
@@ -270,7 +270,7 @@ export function ChatWidget() {
                   </div>
                   <div className="flex-1">
                     <div className="text-sm font-medium">AI Assistant</div>
-                    <div className="text-xs text-muted-foreground">Chat with Sky, our AI bot</div>
+                    <div className="text-xs text-muted-foreground">Chat with ASIT, our AI bot</div>
                   </div>
                   <Sparkles className="w-4 h-4 text-primary/60" />
                 </button>
@@ -295,7 +295,7 @@ export function ChatWidget() {
                     <Sparkles className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold">Sky AI Assistant</p>
+                    <p className="text-sm font-semibold">ASIT AI Assistant</p>
                     <p className="text-[10px] text-muted-foreground flex items-center gap-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
                       Online — Usually replies instantly

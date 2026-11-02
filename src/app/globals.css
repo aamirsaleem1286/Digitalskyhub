@@ -3,6 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #0a0a0a;
   --primary: #2563EB;
@@ -17,6 +18,7 @@
 }
 
 .dark {
+  color-scheme: dark;
   --background: #050816;
   --foreground: #ededed;
   --primary: #2563EB;
@@ -73,6 +75,12 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-x: hidden;
+}
+
+/* ====== Native Select Dropdown ====== */
+select option {
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 /* ====== Glassmorphism ====== */

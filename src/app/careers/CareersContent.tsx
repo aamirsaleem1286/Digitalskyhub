@@ -37,7 +37,7 @@ export function CareersContent() {
       <section className="section-padding pt-0">
         <div className="container-custom mx-auto px-4 md:px-6">
           <GlassCard glow="blue" className="p-8 md:p-12 max-w-4xl mx-auto mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center gradient-text">Why Work at Digital Sky Hub?</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center gradient-text">Why Work at AI Solution IT?</h3>
             <div className="grid sm:grid-cols-2 gap-6">
               {[
                 "Work on cutting-edge AI & technology",

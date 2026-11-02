@@ -6,7 +6,8 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { Button } from "@/components/ui/Button";
 import { pricingPlans } from "@/data/content";
 import { FaqSection } from "@/components/sections/home/FaqSection";
-import { Check, ArrowRight, HelpCircle } from "lucide-react";
+import { CouponSection } from "@/components/sections/pricing/CouponSection";
+import { Check, ArrowRight, HelpCircle, CreditCard } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function PricingContent() {
@@ -72,8 +73,19 @@ export function PricingContent() {
               </motion.div>
             ))}
           </div>
+
+          <div className="mt-12 text-center">
+            <p className="text-sm text-muted-foreground mb-4">
+              Already have an invoice? Pay securely via bank transfer.
+            </p>
+            <Button href="/payment" variant="outline" icon={<CreditCard className="w-4 h-4" />}>
+              Pay via Bank Transfer
+            </Button>
+          </div>
         </div>
       </section>
+
+      <CouponSection />
 
       <FaqSection />
     </>

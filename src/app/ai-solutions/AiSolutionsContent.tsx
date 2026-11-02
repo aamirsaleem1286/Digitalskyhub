@@ -122,7 +122,7 @@ export function AiSolutionsContent() {
         </div>
       </section>
 
-      {/* Why AI with Digital Sky Hub */}
+      {/* Why AI with AI Solution IT */}
       <section className="section-padding pt-0">
         <div className="container-custom mx-auto px-4 md:px-6">
           <SectionHeading title="Why Choose Our AI Solutions?" subtitle="AI Excellence" />
