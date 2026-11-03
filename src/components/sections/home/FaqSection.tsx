@@ -27,7 +27,7 @@ export function FaqSection() {
   };
 
   return (
-    <section className="section-padding relative overflow-hidden mt-[-120px]" id="faq">
+    <section className="section-padding relative overflow-hidden mt-0 md:mt-[-120px]" id="faq">
       <div className="absolute inset-0 grid-bg opacity-50" />
       <div className="container-custom mx-auto relative z-10">
         <SectionHeading

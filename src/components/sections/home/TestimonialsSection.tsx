@@ -35,7 +35,7 @@ export function TestimonialsSection() {
   };
 
   return (
-    <section className="section-padding relative overflow-hidden mt-[-150px]">
+    <section className="section-padding relative overflow-hidden mt-0 md:mt-[-150px]">
       <div className="absolute inset-0">
         <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-secondary/5 rounded-full blur-[128px]" />
       </div>

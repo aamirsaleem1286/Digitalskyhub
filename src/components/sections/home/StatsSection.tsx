@@ -65,7 +65,7 @@ function AnimatedCounter({ target, suffix }: { target: number; suffix: string })
 
 export function StatsSection() {
   return (
-    <section className="section-padding relative overflow-hidden mt-[-100px]">
+    <section className="section-padding relative overflow-hidden mt-0 md:mt-[-100px]">
       {/* Background glow */}
       <h1 className="mb-4 text-center text-bold text-4xl">What Makes Us Different?</h1>
       <div className="absolute inset-0">

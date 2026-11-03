@@ -28,7 +28,7 @@ export function PortfolioSection() {
     : portfolioItems.filter((item) => item.category === activeCategory);
 
   return (
-    <section className="section-padding relative overflow-hidden mt-[-150px]" id="portfolio">
+    <section className="section-padding relative overflow-hidden mt-0 md:mt-[-150px]" id="portfolio">
       <div className="absolute inset-0 grid-bg opacity-50" />
       <div className="container-custom mx-auto relative z-10">
         <SectionHeading

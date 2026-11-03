@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 export function PricingSection() {
   return (
-    <section className="section-padding relative overflow-hidden mt-[-150px]" id="pricing">
+    <section className="section-padding relative overflow-hidden mt-0 md:mt-[-150px]" id="pricing">
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[128px]" />
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-[96px]" />
